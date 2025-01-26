@@ -7,6 +7,7 @@ module.exports = {
   collectCoverageFrom: ['src/**/*ts(x)?'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/'],
+  prettierPath: null,
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }]
   }
