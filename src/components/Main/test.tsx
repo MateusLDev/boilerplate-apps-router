@@ -10,4 +10,10 @@ describe('<Main />', () => {
       screen.getByRole('heading', { name: /React Avançado/i })
     ).toBeInTheDocument()
   })
+
+  it('should render the color correctly', () => {
+    const { container } = render(<Main />)
+
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
+  })
 })
