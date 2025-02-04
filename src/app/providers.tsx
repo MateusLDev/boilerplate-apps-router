@@ -1,7 +1,7 @@
 'use client'
 
-import { PropsWithChildren } from 'react'
 import GlobalStyles from '@/styles/global'
+import { PropsWithChildren } from 'react'
 
 export function Providers({ children }: PropsWithChildren) {
   return (
